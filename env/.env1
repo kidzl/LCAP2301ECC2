@@ -1,0 +1,3 @@
+destinations=[{"name":"apihub_sandbox","url":"https://apihub_sandbox.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"}]
+cds_requires={"Marketing_Contact":{"impl":"@sap/cds/libx/_runtime/remote/Service.js","external":true,"kind":"odata-v2","model":"srv/external/Marketing_Contact","credentials":{"destination":"apihub_sandbox","path":"s4hanacloud/sap/opu/odata/sap/API_MKT_CONTACT_SRV;v=0003"}}}
+VCAP_SERVICES={}
